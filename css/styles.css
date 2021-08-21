@@ -1,0 +1,155 @@
+.text-center{
+    text-align: center;
+    font-family: arial black;
+}
+
+.small-6{
+    display: inline-block;
+    width: 45%;
+
+}
+
+.row{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.Healthbar{
+    width: 80%;
+    height: 40px;
+    background-color: #eee;
+    margin: auto;
+    transition: width 500 ms;
+    border-radius: 18px;
+}
+.controls, .log{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 3px 6px #ccc;
+    margin-left: 40px;
+    margin-right: 40px;;
+}
+
+.turn{
+    margin-top: 30px;
+    margin-bottom:20px ;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+.log ul{
+    list-style: none;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.log ul li{
+    margin: 5px;
+}
+.log ul .player-turn{
+    color: blue;
+    background-color: #e4e8ff;
+    font-family: 'arial black';
+    border-radius: 18px;
+
+}
+.log ul .monster-turn{
+    color: red;
+    background-color: #ffc0c1;
+    font-family: 'arial black';
+    border-radius: 18px;
+}
+button{
+    font-size: 20px;
+    background-color: #eee;
+    padding: 12px;
+    box-shadow: 0 1px 1px black;
+    margin: 10px;
+}
+
+#start-game{
+    font-family: 'arial black';
+    font-weight: bold;
+    color: #22FF00 !important;
+    font-size: 18px;
+    text-shadow: 1px 1px 3px #000000;
+     box-shadow: 2px 2px 2px #BEE2F9;
+     padding: 13px 25px;
+     border-radius: 13px;
+     border: 2px solid #3866A3;
+     background: #63B8EE;
+}
+#start-game:hover{
+    color: #63B8EE !important;
+    background: #22FF00;
+}
+
+#attack{
+    font-family: 'arial black';
+    font-weight: bold;
+    color: #F7FF03 !important;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #F7FF03;
+    box-shadow: 1px 1px 1px #E30000;
+    padding: 10px 25px;
+    border-radius: 18px;
+    border: 1px solid #A30B0B;
+    background: #FF0000;
+}
+#attack:hover{
+    color: #FF0000 !important;
+  background: #F7FF03;
+}
+
+#special-attack{
+    font-family: 'arial black';
+    color: #BBFF00 !important;
+    font-size: 18px;
+    text-shadow: 1px 1px 0px #F7FF03;
+    box-shadow: 1px 1px 1px #E30000;
+    padding: 10px 25px;
+    border-radius: 18px;
+    border: 1px solid #A30B0B;
+    background: #D40000;
+
+
+}
+#special-attack:hover{
+    color: #D40000 !important;
+    background: #BBFF00;
+}
+#heal{
+    font-family: 'arial black';
+  color: #FFFFFF !important;
+  font-size: 18px;
+  text-shadow: 1px 1px 0px #33FF00;
+  box-shadow: 1px 1px 1px #BEE2F9;
+  padding: 10px 25px;
+  border-radius: 18px;
+  border: 2px solid #6DCC00;
+  background: #00EE08;
+}
+#heal:hover{
+    color: #00EE08 !important;
+  background: #FFFFFF;
+}
+#give-up{
+    font-family: 'arial black';
+    color: #000000 !important;
+    font-size: 18px;
+    text-shadow: 0px 0px 0px #FFFFFF;
+    box-shadow: 1px 1px 1px #FFFFFF;
+    padding: 10px 25px;
+    border-radius: 18px;
+    border: 2px solid #000000;
+    background: #FFFFFF;
+}
+#give-up:hover{
+    color: #FFFFFF !important;
+    background: #BABABA;
+}
