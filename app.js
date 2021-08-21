@@ -27,7 +27,7 @@ methods:{
 
 
 
-        this.playerHealth-=this.calculatDamage(5,12);
+       
         this.monsterAttacks();
 
     },
